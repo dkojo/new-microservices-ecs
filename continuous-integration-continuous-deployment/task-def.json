@@ -28,11 +28,11 @@
     "secrets": [
       {
         "name": "DB_USERNAME",
-        "valueFrom": "arn:aws:secretsmanager:us-east-1:870342665742:secret:itgenius-db-secret-4bPByy"
+        "valueFrom": "arn:aws:secretsmanager:us-east-1:870342665742:secret:itgenius-db-secret-4bPByy:username::"
       },
       {
         "name": "DB_PASSWORD",
-        "valueFrom": "arn:aws:secretsmanager:us-east-1:870342665742:secret:itgenius-db-secret-4bPByy"
+        "valueFrom": "arn:aws:secretsmanager:us-east-1:870342665742:secret:itgenius-db-secret-4bPByy:password::"
       }
     ],
     "environment": [
