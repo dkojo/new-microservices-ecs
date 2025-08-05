@@ -1,6 +1,6 @@
 aws_region         = "us-east-1"
-vpc_id             = "vpc-0eeb9af51dcf5660a"
-subnet_ids         = ["subnet-09e6e1eb0955bd8c4", "subnet-0169798bbb090c914"]
+vpc_id             = "vpc-060d68cf8f4f0ff4b"
+subnet_ids         = ["subnet-0305d0946c139cda7", "subnet-0413b34ddd5fbc136"]
 cluster_name       = "itgenius-microservice-ecs-app-dev-cluster"
 service_name       = "itgenius-microservice-ecs-app-dev-service"
 application_lb_name = "itgenius-app-ecs-dev-alb"
